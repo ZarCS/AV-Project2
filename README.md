@@ -1,8 +1,8 @@
 
 
-# Anti-noise_FGVR
+# Fine Grained Car Detection
 
-This repository provides a PyTorch implementation of the fine-grained vehicle recognition method.
+This repository provides a PyTorch implementation of the fine-grained car recognition method.
 
 ### Figure 1: The target problem addressed by the proposed method
 
@@ -49,7 +49,7 @@ the folder `vic` from https://github.com/styler00dollar/pytorch-loss-functions,
 the folder `example` and Python file `sam.py` from https://github.com/davda54/sam,
 and save them as:
 
-    Anti-noise_FGVR
+    AV-Project2
     ├── basic_conv.py
     ├── Inference_Stanford_Cars_ResNet50_Student.py
     ├── Inference_Stanford_Cars_ResNet50_Teacher.py
@@ -62,7 +62,7 @@ and save them as:
 Alternatively, you can simply download by running the following commands (note that `subversion` should be installed beforehand as `sudo apt install subversion`):
 
     git clone https://github.com/ZarCS/AV-Project2.git
-    cd Anti-noise_FGVR
+    cd AV-Project2
     svn export https://github.com/Alibaba-MIIL/TResNet/branches/master/src
     svn export https://github.com/davda54/sam/branches/main/example
     svn export https://github.com/davda54/sam/branches/main/sam.py
