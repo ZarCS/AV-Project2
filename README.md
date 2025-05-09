@@ -2,16 +2,16 @@
 
 # Anti-noise_FGVR
 
-This repository provides a PyTorch implementation of the fine-grained vehicle recognition method, as proposed in my paper: [Progressive Multi-Task Anti-Noise Learning and Distilling Frameworks for Fine-Grained Vehicle Recognition](https://ieeexplore.ieee.org/document/10623841).
+This repository provides a PyTorch implementation of the fine-grained vehicle recognition method.
 
 ### Figure 1: The target problem addressed by the proposed method
 
-![The target problem addressed by the proposed method.](https://raw.githubusercontent.com/Dichao-Liu/Anti-noise_FGVR/main/noise_problem.png)
+![The target problem addressed by the proposed method.](https://github.com/ZarCS/AV-Project2/blob/main/pics/noise_problem.png)
 
 
 ### Figure 2: The proposed module
 
-![The proposed module.](https://raw.githubusercontent.com/Dichao-Liu/Anti-noise_FGVR/main/DRH.png)
+![The proposed module.](https://github.com/ZarCS/AV-Project2/blob/main/pics/DRH.png)
 
 
 
@@ -26,19 +26,6 @@ This source code was tested in the following environment:
     Python = 3.8.13
     PyTorch = 1.12.0
     torchvision = 0.13.0
-    Ubuntu 20.04.6 LTS
-    NVIDIA GeForce RTX 3080 Ti
-
-### Pre-trained Models
-The pre-trained models can be downloaded from [this link](https://wani.teracloud.jp/share/11f23df41b4a6f82).
-
-Please save the downloaded models in the `weightsFromCloud` folder.
-
-The `xxxxx_Network.pth` file was saved using `torch.save(model, 'xxxxx_Network.pth')`.
-
-The `xxxxx_Weight.pth` file was saved using `torch.save(model.state_dict(), 'xxxxx_Weight.pth')`.
-
-If you decide to register on InfiniCLOUD to download the model, I would appreciate it if you could kindly use my referral code `XTQQJ` during the process. This small gesture will be of great help to me.
 
 
 ### Dependencies
@@ -74,7 +61,7 @@ and save them as:
 
 Alternatively, you can simply download by running the following commands (note that `subversion` should be installed beforehand as `sudo apt install subversion`):
 
-    git clone https://github.com/Dichao-Liu/Anti-noise_FGVR.git
+    git clone https://github.com/ZarCS/AV-Project2.git
     cd Anti-noise_FGVR
     svn export https://github.com/Alibaba-MIIL/TResNet/branches/master/src
     svn export https://github.com/davda54/sam/branches/main/example
@@ -122,25 +109,4 @@ When training the student network, the `--from_local` option allows you to speci
 
     python Inference_Stanford_Cars_ResNet50_Teacher.py
     python Inference_Stanford_Cars_ResNet50_Student.py
-
-
-### Bibtex
-
-```
-@ARTICLE{10623841,
-  author={Liu, Dichao},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={Progressive Multi-Task Anti-Noise Learning and Distilling Frameworks for Fine-Grained Vehicle Recognition}, 
-  year={2024},
-  volume={25},
-  number={9},
-  pages={10667-10678},
-  keywords={Noise;Task analysis;Image recognition;Multitasking;Training;Noise measurement;Accuracy;Fine-grained vehicle recognition;intelligent transportation systems;ConvNets;object recognition},
-  doi={10.1109/TITS.2024.3420151}
-}
-```
-
-
-
-
 
