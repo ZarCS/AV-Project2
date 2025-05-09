@@ -14,7 +14,8 @@ This repository provides a PyTorch implementation of the fine-grained car recogn
 ![The proposed module.](https://github.com/ZarCS/AV-Project2/blob/main/pics/DRH.png)
 
 
-
+### The results
+![results of PAML as the best](https://github.com/ZarCS/AV-Project2/blob/main/pics/results.png)
 
 
 
