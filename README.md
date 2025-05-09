@@ -71,7 +71,7 @@ Alternatively, you can simply download by running the following commands (note t
 
 ### Dataset
 
-* **(1) Download the Stanford Cars dataset or other datasets mentioned in the paper, and organize the structure as follows:**
+* **(1) Download the Stanford Cars dataset or other datasets, and organize the structure as follows:**
 ```
 dataset folder
 ├── train
